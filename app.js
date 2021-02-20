@@ -11,14 +11,19 @@ app.set('views',path.join(__dirname,'views')); //去views資料夾拿ejs
 
 
 
+app.use(express.static(__dirname + '/views/css'));
+
+
+
 app.get('/',(req,res)=>{
     res.render('main/index')
 })
 
 
-app.get('/1.jpg',(req,res)=>{
+app.get('/pic/:picid',(req,res)=>{
+    console.log(req.params.picid);
     console.log(__dirname);
-    res.sendFile(__dirname + '/views/main/pic/1.jpg');
+    res.sendFile(__dirname + `/pic/${req.params.picid}`);
 })
 
 app.get('/index',(req,res)=>{
