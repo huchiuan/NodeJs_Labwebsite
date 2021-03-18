@@ -17,12 +17,16 @@ padding-left: 0px;
       }
 
       .navbar-brand {
-        
-  
-        width: 400px;
+        width: 200px;
         left: 15px;
-      
-    }
+      }
+
+      /* small devices */
+      @media screen and (min-width: 576px) {
+        .navbar-brand {
+          width: 400px;
+        }
+      }
 
     .nav-back{
       background-color: black;
