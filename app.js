@@ -36,6 +36,10 @@ app.get('/tp-liang',(req,res)=>{
     res.render('main/tp-liang')
 })
 
+app.get('/labmember',(req,res)=>{
+    res.render('main/labmember')
+})
+
 const port = process.env.PORT || 3000 ;
 app.listen(port,() => {
     console.log(`Listening on port${port}`);
