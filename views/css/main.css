@@ -34,7 +34,13 @@ padding-left: 0px;
     section.left {
       padding: 2rem;
     }
-    
+    .left{
+      padding: 2rem;
+    }
+    .right {
+      padding: 2rem;
+    }
+
     section.container {
       display: flex;
     }
@@ -55,7 +61,7 @@ section.right h5 {
 section.right iframe {
   border-radius: 2rem;
 }
-.myPicture {
+.tpPicture  {
   width: 32vh;
   height: 35vh;
   border-radius: 50%;
@@ -68,13 +74,19 @@ section.right iframe {
   margin: auto;
 }
 .memberPicture {
-  width: 31vh;
-  height: 28vh;
+  width: 25vh;
+  height: 22vh;
   margin: auto;
 }
 a {
   color: rgba(25, 58, 150, 0.726);
   text-decoration: none;
+}
+.maincard{
+  max-width: 540px;
+}
+.picintroduce{
+  text-align:center;
 }
    /* small devices */
    @media screen and (min-width: 576px) {
