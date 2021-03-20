@@ -3,8 +3,18 @@
 	{
 	"grade":"109",
 	"member":[
+
 		{
-			"photo": "sdasd",
+			"photo": "./pic/hu-chuan.jpg",
+			"name": "研究生:胡祐銓",
+			"title": "資管所碩一",
+			"contact": "109356035@nccu.edu.tw",
+			"research": "研究方向:網站系統",
+			"researchenglish":"", 
+			"researchlink": ""
+		},
+		{
+			"photo": "./pic/wang-ting.jpg",
 			"name": "研究生:王婷",
 			"title": "資管所碩一",
 			"contact": "109356034@nccu.edu.tw",
@@ -13,11 +23,20 @@
 			"researchlink": ""
 		},
 		{
-			"photo": "sdasd",
-			"name": "研究生:王婷",
+			"photo": "./pic/timmy.jpg",
+			"name": "研究生:林書霆",
 			"title": "資管所碩一",
-			"contact": "109356034@nccu.edu.tw",
-			"research": "研究方向:人機互動",
+			"contact": "109356026@nccu.edu.tw",
+			"research": "研究方向:腦波系統",
+			"researchenglish":"", 
+			"researchlink": ""
+		},
+		{
+			"photo": "./pic/chipong.jpg",
+			"name": "研究生:黃熙棚",
+			"title": "資管所碩一",
+			"contact": " 109356052@nccu.edu.tw",
+			"research": "研究方向:社群網路",
 			"researchenglish":"", 
 			"researchlink": ""
 		}
@@ -27,26 +46,87 @@
 	{
 		"grade":"108",
 		"member":[
+	
 			{
-				"photo": "sdasd",
-				"name": "研究生:王婷",
-				"title": "資管所碩一",
-				"contact": "109356034@nccu.edu.tw",
-				"research": "研究方向:人機互動",
+				"photo": "./pic/su.jpg",
+				"name": "研究生:蘇晉威",
+				"title": "資管所碩二",
+				"contact": "xx",
+				"research": "研究方向:假新聞",
 				"researchenglish":"", 
 				"researchlink": ""
 			},
 			{
-				"photo": "sdasd",
-				"name": "研究生:王婷",
-				"title": "資管所碩一",
-				"contact": "109356034@nccu.edu.tw",
-				"research": "研究方向:人機互動",
+				"photo": "./pic/tinway.jpg",
+				"name": "研究生:郭庭瑋",
+				"title": "資管所碩二",
+				"contact": "xx",
+				"research": "研究方向:假新聞之書目計量學",
+				"researchenglish":"", 
+				"researchlink": ""
+			},
+			{
+				"photo": "./pic/chaisin.jpg",
+				"name": "研究生:張家欣",
+				"title": "資管所碩二",
+				"contact": "xx",
+				"research": "研究方向:腦波系統",
+				"researchenglish":"", 
+				"researchlink": ""
+			},
+			{
+				"photo": "./pic/howdun.jpg",
+				"name": "研究生:陳皓惇",
+				"title": "資管所碩二",
+				"contact": " xx",
+				"research": "研究方向:擬人化AI",
+				"researchenglish":"", 
+				"researchlink": ""
+			}
+				]
+		
+	},
+	{
+		"grade":"107",
+		"member":[
+	
+			{
+				"photo": "./pic/su.jpg",
+				"name": "研究生:蘇晉威",
+				"title": "資管所碩二",
+				"contact": "xx",
+				"research": "研究方向:假新聞",
+				"researchenglish":"", 
+				"researchlink": ""
+			},
+			{
+				"photo": "./pic/tinway.jpg",
+				"name": "研究生:郭庭瑋",
+				"title": "資管所碩二",
+				"contact": "xx",
+				"research": "研究方向:假新聞之書目計量學",
+				"researchenglish":"", 
+				"researchlink": ""
+			},
+			{
+				"photo": "./pic/chaisin.jpg",
+				"name": "研究生:張家欣",
+				"title": "資管所碩二",
+				"contact": "xx",
+				"research": "研究方向:腦波系統",
+				"researchenglish":"", 
+				"researchlink": ""
+			},
+			{
+				"photo": "./pic/howdun.jpg",
+				"name": "研究生:陳皓惇",
+				"title": "資管所碩二",
+				"contact": " xx",
+				"research": "研究方向:擬人化AI",
 				"researchenglish":"", 
 				"researchlink": ""
 			}
 				]
 		
 	}
- 
 ]

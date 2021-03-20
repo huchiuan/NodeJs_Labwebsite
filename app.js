@@ -18,26 +18,7 @@ app.use(express.static(__dirname + '/views/css'));
 
 const file = path.join(__dirname, 'labmember.json');
 
-var jsonData=   fs.readFile(file, 'utf8', function async(err, data) {
-    if (err) {
-    console.log(err);
-        return;
-    }
-    else{
-        const totaldatas = JSON.parse(data); 
-        // for(let year of totaldata){
-        //     console.log(year.year);
-        //     for(let member of year.member){
-        //         console.log(member);
-        //         }
-        // }
-       
-       // console.log(finaldata);
-        console.log(totaldatas);
-       
-    }
-    
-    });
+
 
 
 
@@ -65,27 +46,27 @@ app.get('/tp-liang',(req,res)=>{
 app.get('/labmember',  (req,res)=>{
   
 
-        // var jsonData=   fs.readFile(file, 'utf8', function async(err, data) {
-        // if (err) {
-        // console.log(err);
-        //     return;
-        // }
-        // else{
-        //     const totaldatas = JSON.parse(data); 
-        //     // for(let year of totaldata){
-        //     //     console.log(year.year);
-        //     //     for(let member of year.member){
-        //     //         console.log(member);
-        //     //         }
-        //     // }
+        var jsonData=   fs.readFile(file, 'utf8', function async(err, data) {
+        if (err) {
+        console.log(err);
+            return;
+        }
+        else{
+            const totaldatas = JSON.parse(data); 
+            // for(let year of totaldata){
+            //     console.log(year.year);
+            //     for(let member of year.member){
+            //         console.log(member);
+            //         }
+            // }
            
-        //    // console.log(finaldata);
-        //     console.log(totaldatas);
-        //    res.render('main/labmember',{totaldatas});
-        // }
+           // console.log(finaldata);
+            console.log(totaldatas);
+           res.render('main/labmember',{totaldatas});
+        }
         
-        // });
-        res.render('main/labmember',{totaldatas});
+        });
+     
  
        
   
