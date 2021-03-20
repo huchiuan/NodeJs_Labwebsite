@@ -26,21 +26,26 @@
                 <div class="col col-s-6 col-xs-6 py-5">
                         <div class="card-body">
                             <h5 class="card-title"><strong><%=member.name%></strong></h5>
+                            <hr />
                             <p class="card-text"><strong><%=member.title%></strong></p>
                             <% if(member.contact){ %>
                             <p class="card-text"><strong>聯絡方式:</strong></p>
                             <p class="card-text"><strong><%=member.contact%></strong></p>  
+                            
                             <% }%>
                         
                     
                             <% if(member.researchlink){ %>
+                                <hr />
                             <p class="card-text"><strong>研究成果:</strong></p>
                             <p class="card-text research"><strong><%=member.research%></strong></p>
                             <p class="card-text research"><strong><%=member.researchenglish%></strong></p>
+                            <hr />
                             <p class="card-text"><a href="<%=member.researchlink%>"><strong>論文網址</strong></a></p>
 
                             <% }%>
                             <% if(!member.researchlink){ %>
+                                <hr />
                             <p class="card-text"><strong>研究方向:<%=member.research%></strong></p>                                
                             <% }%>
                         
