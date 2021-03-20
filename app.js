@@ -2,7 +2,7 @@ const express = require("express");
 const app = express()
 const path = require ('path');
 const ejsMate = require('ejs-mate');
-
+const fs = require('fs');
 
 
 app.engine('ejs',ejsMate)
@@ -15,14 +15,40 @@ app.use(express.static(__dirname + '/views/css'));
 
 
 
+
+const file = path.join(__dirname, 'labmember.json');
+
+var jsonData=   fs.readFile(file, 'utf8', function async(err, data) {
+    if (err) {
+    console.log(err);
+        return;
+    }
+    else{
+        const totaldatas = JSON.parse(data); 
+        // for(let year of totaldata){
+        //     console.log(year.year);
+        //     for(let member of year.member){
+        //         console.log(member);
+        //         }
+        // }
+       
+       // console.log(finaldata);
+        console.log(totaldatas);
+       
+    }
+    
+    });
+
+
+
 app.get('/',(req,res)=>{
     res.render('main/index')
 })
 
 
 app.get('/pic/:picid',(req,res)=>{
-    console.log(req.params.picid);
-    console.log(__dirname);
+    // console.log(req.params.picid);
+    // console.log(__dirname);
     res.sendFile(__dirname + `/pic/${req.params.picid}`);
 })
 
@@ -36,8 +62,33 @@ app.get('/tp-liang',(req,res)=>{
     res.render('main/tp-liang')
 })
 
-app.get('/labmember',(req,res)=>{
-    res.render('main/labmember')
+app.get('/labmember',  (req,res)=>{
+  
+
+        // var jsonData=   fs.readFile(file, 'utf8', function async(err, data) {
+        // if (err) {
+        // console.log(err);
+        //     return;
+        // }
+        // else{
+        //     const totaldatas = JSON.parse(data); 
+        //     // for(let year of totaldata){
+        //     //     console.log(year.year);
+        //     //     for(let member of year.member){
+        //     //         console.log(member);
+        //     //         }
+        //     // }
+           
+        //    // console.log(finaldata);
+        //     console.log(totaldatas);
+        //    res.render('main/labmember',{totaldatas});
+        // }
+        
+        // });
+        res.render('main/labmember',{totaldatas});
+ 
+       
+  
 })
 
 const port = process.env.PORT || 3000 ;

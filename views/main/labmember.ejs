@@ -5,86 +5,38 @@
         
 <div class="row pt-3">
     
-    <h1><strong>109級研究生</strong></h1>
-
-    <div class="card col-xl-5 col-md-5 col-s-12 col-xs-12  mb-3 mx-md-3 " >
-        <div class="row ">
-                <div class="col col-s-6 col-xs-6">
-                    <img src="./pic/hu-chuan.jpg" class="img-fluid memberPicture" alt="...">
-                </div>
-          <div class="col col-s-6 col-xs-6">
-                <div class="card-body">
-                    <h5 class="card-title">研究生:胡祐銓</h5>
-                    <p class="card-text">資管所碩一</p>
-                    <p class="card-text">聯絡方式:</p>
-                    <p class="card-text">109356035@nccu.edu.tw</p>
-                    <p class="card-text"><small class="text-muted">研究方向:網站系統</small></p>
-                </div>
-          </div>
-        </div>
-      
-      
-
-    </div>
-
-    <div class="card col-xl-5 col-md-5 col-s-12 col-xs-12  mb-3 mx-md-3 " >
-        <div class="row ">
-            <div class="col">
-                <img src="./pic/wang-ting.jpg" class="img-fluid memberPicture" alt="...">
+   
+<% for (let year of totaldatas){ %>
+    <h1><strong><%=year.year%>級研究生</strong></h1>
+       
+    <%  for(let member of year.member){ %>
+        <div class="card col-xl-5 col-md-5 col-s-12 col-xs-12  mb-3 mx-md-3 " >
+            <div class="row ">
+                    <div class="col col-s-6 col-xs-6 mt-3">
+                        <img src="<%=member.photo%>" class="img-fluid memberPicture" alt="...">
+                    </div>
+              <div class="col col-s-6 col-xs-6">
+                    <div class="card-body">
+                        <h5 class="card-title"><%=member.name%></h5>
+                        <p class="card-text"><%=member.title%></p>
+                        <p class="card-text">聯絡方式:</p>
+                        <p class="card-text"><%=member.contact%></p>
+                        <p class="card-text"><small class="text-muted"><%=member.research%></small></p>
+                        <p class="card-text"><small class="text-muted"><%=member.researchenglish%></small></p>
+                        <p class="card-text"><small class="text-muted"><%=member.researchlink%></small></p>
+                    </div>
+              </div>
             </div>
-        <div class="col">
-                <div class="card-body">
-                    <h5 class="card-title">研究生:王婷</h5>
-                    <p class="card-text">資管所碩一</p>
-                    <p class="card-text">聯絡方式:</p>
-                    <p class="card-text">109356034@nccu.edu.tw</p>
-                    <p class="card-text">
-                        <small class="text-muted">研究方向:人機互動</small>
-                    </p>
-                </div>
-        </div>
-        </div>
-    </div>
-
-    <div class="card col-xl-5 col-md-5 col-s-12 col-xs-12  mb-3 mx-md-3">
-        <div class="row g-0">
-                <div class="col">
-                    <img src="./pic/hu-chuan.jpg" class="img-fluid memberPicture" alt="...">
-                </div>
-          <div class="col">
-                <div class="card-body">
-                    <h5 class="card-title">研究生:林書霆</h5>
-                    <p class="card-text">資管所碩一</p>
-                    <p class="card-text">聯絡方式:</p>
-                    <p class="card-text">109356035@nccu.edu.tw</p>
-                    <p class="card-text"><small class="text-muted">研究方向:網站系統</small></p>
-                </div>
-          </div>
-        </div>
-      
-      
-
-    </div>
-
-    <div class="card col-xl-5 col-md-5 col-s-12 col-xs-12  mb-3 mx-md-3 ">
-        <div class="row g-0">
-                <div class="col">
-                    <img src="./pic/hu-chuan.jpg" class="img-fluid memberPicture" alt="...">
-                </div>
-          <div class="col">
-                <div class="card-body">
-                    <h5 class="card-title">研究生:胡祐銓</h5>
-                    <p class="card-text">資管所碩一</p>
-                    <p class="card-text">聯絡方式:</p>
-                    <p class="card-text">109356035@nccu.edu.tw</p>
-                    <p class="card-text"><small class="text-muted">研究方向:網站系統</small></p>
-                </div>
-          </div>
-        </div>
-      
+          
+          
     
+        </div>
 
-    </div>
+    <% } %>
+
+<% } %>
+
+  
 
 </div>    
 
@@ -237,4 +189,11 @@
 
 </div>
 -->
+
+
+
+
+
+   
+    
 </div>

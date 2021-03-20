@@ -1,0 +1,52 @@
+[
+ 
+	{
+	"grade":"109",
+	"member":[
+		{
+			"photo": "sdasd",
+			"name": "研究生:王婷",
+			"title": "資管所碩一",
+			"contact": "109356034@nccu.edu.tw",
+			"research": "研究方向:人機互動",
+			"researchenglish":"", 
+			"researchlink": ""
+		},
+		{
+			"photo": "sdasd",
+			"name": "研究生:王婷",
+			"title": "資管所碩一",
+			"contact": "109356034@nccu.edu.tw",
+			"research": "研究方向:人機互動",
+			"researchenglish":"", 
+			"researchlink": ""
+		}
+			]
+	
+	},
+	{
+		"grade":"108",
+		"member":[
+			{
+				"photo": "sdasd",
+				"name": "研究生:王婷",
+				"title": "資管所碩一",
+				"contact": "109356034@nccu.edu.tw",
+				"research": "研究方向:人機互動",
+				"researchenglish":"", 
+				"researchlink": ""
+			},
+			{
+				"photo": "sdasd",
+				"name": "研究生:王婷",
+				"title": "資管所碩一",
+				"contact": "109356034@nccu.edu.tw",
+				"research": "研究方向:人機互動",
+				"researchenglish":"", 
+				"researchlink": ""
+			}
+				]
+		
+	}
+ 
+]
