@@ -9,7 +9,7 @@
 			"name": "研究生:胡祐銓",
 			"title": "資管所碩一",
 			"contact": "109356035@nccu.edu.tw",
-			"research": "研究方向:網站系統",
+			"research": "網站系統",
 			"researchenglish":"", 
 			"researchlink": ""
 		},
@@ -18,7 +18,7 @@
 			"name": "研究生:王婷",
 			"title": "資管所碩一",
 			"contact": "109356034@nccu.edu.tw",
-			"research": "研究方向:人機互動",
+			"research": "人機互動",
 			"researchenglish":"", 
 			"researchlink": ""
 		},
@@ -27,7 +27,7 @@
 			"name": "研究生:林書霆",
 			"title": "資管所碩一",
 			"contact": "109356026@nccu.edu.tw",
-			"research": "研究方向:腦波系統",
+			"research": "腦波系統",
 			"researchenglish":"", 
 			"researchlink": ""
 		},
@@ -36,7 +36,7 @@
 			"name": "研究生:黃熙棚",
 			"title": "資管所碩一",
 			"contact": " 109356052@nccu.edu.tw",
-			"research": "研究方向:社群網路",
+			"research": "社群網路",
 			"researchenglish":"", 
 			"researchlink": ""
 		}
@@ -51,8 +51,8 @@
 				"photo": "./pic/su.jpg",
 				"name": "研究生:蘇晉威",
 				"title": "資管所碩二",
-				"contact": "xx",
-				"research": "研究方向:假新聞",
+				"contact": "",
+				"research": "假新聞",
 				"researchenglish":"", 
 				"researchlink": ""
 			},
@@ -60,8 +60,8 @@
 				"photo": "./pic/tinway.jpg",
 				"name": "研究生:郭庭瑋",
 				"title": "資管所碩二",
-				"contact": "xx",
-				"research": "研究方向:假新聞之書目計量學",
+				"contact": "",
+				"research": "假新聞之書目計量學",
 				"researchenglish":"", 
 				"researchlink": ""
 			},
@@ -69,8 +69,8 @@
 				"photo": "./pic/chaisin.jpg",
 				"name": "研究生:張家欣",
 				"title": "資管所碩二",
-				"contact": "xx",
-				"research": "研究方向:腦波系統",
+				"contact": "",
+				"research": "腦波系統",
 				"researchenglish":"", 
 				"researchlink": ""
 			},
@@ -78,8 +78,8 @@
 				"photo": "./pic/howdun.jpg",
 				"name": "研究生:陳皓惇",
 				"title": "資管所碩二",
-				"contact": " xx",
-				"research": "研究方向:擬人化AI",
+				"contact": "",
+				"research": "擬人化AI",
 				"researchenglish":"", 
 				"researchlink": ""
 			}
@@ -91,37 +91,37 @@
 		"member":[
 	
 			{
-				"photo": "./pic/su.jpg",
-				"name": "研究生:蘇晉威",
-				"title": "資管所碩二",
-				"contact": "xx",
-				"research": "研究方向:假新聞",
-				"researchenglish":"", 
-				"researchlink": ""
+				"photo": "",
+				"name": "研究生:張佳賢",
+				"title": "109年畢業",
+				"contact": "",
+				"research": "張佳賢. \"隱私悖論關聯決策機制之神經科學研究.\" 政治大學資訊管理學系學位論文 (2020): 1-87.",
+				"researchenglish":"Decision Mechanism Associated with Privacy Paradox: A Neuroscience Study", 
+				"researchlink": "https://ithelp.ithome.com.tw/articles/10191901"
 			},
 			{
-				"photo": "./pic/tinway.jpg",
+				"photo": "",
 				"name": "研究生:郭庭瑋",
 				"title": "資管所碩二",
-				"contact": "xx",
+				"contact": "",
 				"research": "研究方向:假新聞之書目計量學",
 				"researchenglish":"", 
 				"researchlink": ""
 			},
 			{
-				"photo": "./pic/chaisin.jpg",
+				"photo": "",
 				"name": "研究生:張家欣",
 				"title": "資管所碩二",
-				"contact": "xx",
+				"contact": "",
 				"research": "研究方向:腦波系統",
 				"researchenglish":"", 
 				"researchlink": ""
 			},
 			{
-				"photo": "./pic/howdun.jpg",
+				"photo": "",
 				"name": "研究生:陳皓惇",
 				"title": "資管所碩二",
-				"contact": " xx",
+				"contact": " ",
 				"research": "研究方向:擬人化AI",
 				"researchenglish":"", 
 				"researchlink": ""
