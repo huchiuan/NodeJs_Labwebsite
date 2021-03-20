@@ -9,9 +9,10 @@ app.engine('ejs',ejsMate)
 app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views')); //去views資料夾拿ejs
 
-
+app.use(express.static(path.join(__dirname,'public')));
 
 app.use(express.static(__dirname + '/views/css'));
+
 
 
 

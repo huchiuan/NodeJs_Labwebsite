@@ -46,8 +46,11 @@ left: 15px;
     line-height: 100px;
     height: 100px;
     padding-top: 0;
+    color:#808080!important;
 }
-
+.navbar-nav > .active > a { 
+  background-color: #808080 ; 
+}
 .tpPicture  {
   width: 32vh;
   height: 35vh;
