@@ -8,9 +8,12 @@
     
     <% for (let year of totaldatas){ %>
         <div class="shadow card  col-12 memberintro"> 
-            <br>
-        <h3><strong><%=year.grade%>級研究生</strong></h3>
-        <h4><strong>個人資訊</strong></h4>
+            <div class="container pl-3 pt-3">
+                <h3  class="pl-3"><strong><%=year.grade%>級研究生</strong></h3>
+                 <h4  class="pl-3"><strong>個人資訊</strong></h4>
+            </div>
+           
+        
         </div>
         <%  for(let member of year.member){ %>
             <div class="shadow card col-xl-5 col-md-5 col-s-12 col-xs-12  mb-3 mx-md-4   mt-1" >
